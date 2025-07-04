@@ -1,1 +1,74 @@
-
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="teamBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#teamBg)"/>
+  
+  <!-- Office environment -->
+  <rect x="0" y="300" width="600" height="100" fill="#dee2e6"/>
+  
+  <!-- Desk -->
+  <rect x="50" y="280" width="500" height="20" rx="10" fill="#6c757d"/>
+  
+  <!-- Computers/Laptops -->
+  <g fill="#343a40">
+    <rect x="80" y="250" width="60" height="40" rx="5"/>
+    <rect x="85" y="255" width="50" height="30" rx="2" fill="#007bff"/>
+    
+    <rect x="200" y="250" width="60" height="40" rx="5"/>
+    <rect x="205" y="255" width="50" height="30" rx="2" fill="#28a745"/>
+    
+    <rect x="320" y="250" width="60" height="40" rx="5"/>
+    <rect x="325" y="255" width="50" height="30" rx="2" fill="#dc3545"/>
+    
+    <rect x="440" y="250" width="60" height="40" rx="5"/>
+    <rect x="445" y="255" width="50" height="30" rx="2" fill="#ffc107"/>
+  </g>
+  
+  <!-- Team members (simplified figures) -->
+  <g fill="#495057">
+    <!-- Person 1 -->
+    <circle cx="110" cy="200" r="25" fill="#e9ecef"/>
+    <rect x="95" y="225" width="30" height="55" rx="15" fill="#6c757d"/>
+    
+    <!-- Person 2 -->
+    <circle cx="230" cy="200" r="25" fill="#e9ecef"/>
+    <rect x="215" y="225" width="30" height="55" rx="15" fill="#6c757d"/>
+    
+    <!-- Person 3 -->
+    <circle cx="350" cy="200" r="25" fill="#e9ecef"/>
+    <rect x="335" y="225" width="30" height="55" rx="15" fill="#6c757d"/>
+    
+    <!-- Person 4 -->
+    <circle cx="470" cy="200" r="25" fill="#e9ecef"/>
+    <rect x="455" y="225" width="30" height="55" rx="15" fill="#6c757d"/>
+  </g>
+  
+  <!-- Collaboration indicators -->
+  <g stroke="#3498db" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M135 210 Q175 190 205 210"/>
+    <path d="M255 210 Q295 190 325 210"/>
+    <path d="M375 210 Q415 190 445 210"/>
+  </g>
+  
+  <!-- Code symbols floating -->
+  <g fill="#3498db" opacity="0.3" font-family="monospace" font-size="24">
+    <text x="150" y="150">&lt;/&gt;</text>
+    <text x="300" y="120">{ }</text>
+    <text x="450" y="150">( )</text>
+    <text x="100" y="100">*</text>
+    <text x="500" y="100">#</text>
+  </g>
+  
+  <!-- Innovation sparks -->
+  <g fill="#ffc107" opacity="0.7">
+    <circle cx="180" cy="100" r="3"/>
+    <circle cx="320" cy="80" r="4"/>
+    <circle cx="420" cy="110" r="3"/>
+  </g>
+</svg>

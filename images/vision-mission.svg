@@ -1,0 +1,105 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="visionBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:0.2" />
+    </linearGradient>
+    <radialGradient id="lightBulb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#f1c40f;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#f39c12;stop-opacity:0.4" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#visionBg)"/>
+  
+  <!-- Vision side (left) -->
+  <g transform="translate(50, 50)">
+    <!-- Vision eye icon -->
+    <ellipse cx="150" cy="100" rx="80" ry="50" fill="none" stroke="#3498db" stroke-width="4"/>
+    <circle cx="150" cy="100" r="30" fill="#3498db" opacity="0.6"/>
+    <circle cx="150" cy="100" r="15" fill="#2c3e50"/>
+    <circle cx="160" cy="90" r="5" fill="#ecf0f1"/>
+    
+    <!-- Vision rays -->
+    <g stroke="#3498db" stroke-width="2" opacity="0.5">
+      <line x1="80" y1="70" x2="60" y2="50"/>
+      <line x1="90" y1="60" x2="75" y2="40"/>
+      <line x1="210" y1="60" x2="225" y2="40"/>
+      <line x1="220" y1="70" x2="240" y2="50"/>
+    </g>
+    
+    <!-- Telescope representing vision -->
+    <rect x="120" y="150" width="60" height="15" rx="7" fill="#34495e"/>
+    <rect x="110" y="155" width="15" height="5" rx="2" fill="#2c3e50"/>
+    <rect x="175" y="155" width="15" height="5" rx="2" fill="#2c3e50"/>
+    
+    <!-- Future symbols -->
+    <g fill="#3498db" opacity="0.4">
+      <circle cx="80" cy="180" r="8"/>
+      <circle cx="100" cy="200" r="6"/>
+      <circle cx="200" cy="190" r="7"/>
+      <circle cx="220" cy="210" r="5"/>
+    </g>
+  </g>
+  
+  <!-- Mission side (right) -->
+  <g transform="translate(450, 50)">
+    <!-- Target/bullseye for mission -->
+    <circle cx="150" cy="100" r="70" fill="none" stroke="#e74c3c" stroke-width="4"/>
+    <circle cx="150" cy="100" r="50" fill="none" stroke="#e74c3c" stroke-width="3" opacity="0.7"/>
+    <circle cx="150" cy="100" r="30" fill="none" stroke="#e74c3c" stroke-width="2" opacity="0.5"/>
+    <circle cx="150" cy="100" r="10" fill="#e74c3c"/>
+    
+    <!-- Arrow hitting target -->
+    <g fill="#c0392b">
+      <polygon points="150,100 130,95 130,105"/>
+      <rect x="100" y="98" width="30" height="4"/>
+      <polygon points="95,98 85,93 85,103"/>
+    </g>
+    
+    <!-- Mission path -->
+    <path d="M50 150 Q100 130 150 150 Q200 170 250 150" stroke="#e74c3c" stroke-width="3" fill="none" opacity="0.6"/>
+    
+    <!-- Achievement markers -->
+    <g fill="#27ae60">
+      <circle cx="80" cy="140" r="5"/>
+      <circle cx="150" cy="160" r="5"/>
+      <circle cx="220" cy="145" r="5"/>
+    </g>
+  </g>
+  
+  <!-- Connection between vision and mission -->
+  <g stroke="#9b59b6" stroke-width="3" fill="none" opacity="0.4">
+    <path d="M350 150 Q400 120 450 150"/>
+    <polygon points="440,145 450,150 440,155" fill="#9b59b6"/>
+  </g>
+  
+  <!-- Innovation lightbulb at center bottom -->
+  <g transform="translate(350, 300)">
+    <circle cx="50" cy="50" r="35" fill="url(#lightBulb)"/>
+    <rect x="40" y="75" width="20" height="30" rx="5" fill="#34495e"/>
+    <rect x="35" y="85" width="30" height="4" fill="#2c3e50"/>
+    <rect x="35" y="95" width="30" height="4" fill="#2c3e50"/>
+    
+    <!-- Light rays -->
+    <g stroke="#f1c40f" stroke-width="2" opacity="0.7">
+      <line x1="20" y1="30" x2="10" y2="20"/>
+      <line x1="30" y1="20" x2="25" y2="10"/>
+      <line x1="50" y1="15" x2="50" y2="5"/>
+      <line x1="70" y1="20" x2="75" y2="10"/>
+      <line x1="80" y1="30" x2="90" y2="20"/>
+    </g>
+  </g>
+  
+  <!-- Success path -->
+  <g stroke="#27ae60" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M100 400 Q200 350 300 380 Q500 420 700 380"/>
+    <circle cx="150" cy="365" r="4" fill="#27ae60"/>
+    <circle cx="250" cy="385" r="4" fill="#27ae60"/>
+    <circle cx="350" cy="395" r="4" fill="#27ae60"/>
+    <circle cx="450" cy="405" r="4" fill="#27ae60"/>
+    <circle cx="550" cy="395" r="4" fill="#27ae60"/>
+    <circle cx="650" cy="385" r="4" fill="#27ae60"/>
+  </g>
+</svg>

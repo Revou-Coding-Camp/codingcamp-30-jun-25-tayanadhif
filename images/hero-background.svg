@@ -1,0 +1,45 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background gradient -->
+  <rect width="1920" height="1080" fill="url(#heroGrad)"/>
+  
+  <!-- Grid overlay -->
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+  
+  <!-- Abstract geometric shapes -->
+  <circle cx="300" cy="200" r="150" fill="rgba(255,255,255,0.1)" opacity="0.5"/>
+  <circle cx="1600" cy="300" r="200" fill="rgba(255,255,255,0.08)" opacity="0.7"/>
+  <circle cx="1200" cy="800" r="180" fill="rgba(255,255,255,0.06)" opacity="0.6"/>
+  
+  <!-- Code-like elements -->
+  <g opacity="0.3">
+    <rect x="100" y="400" width="200" height="20" rx="10" fill="rgba(255,255,255,0.2)"/>
+    <rect x="100" y="440" width="150" height="20" rx="10" fill="rgba(255,255,255,0.15)"/>
+    <rect x="100" y="480" width="180" height="20" rx="10" fill="rgba(255,255,255,0.1)"/>
+    
+    <rect x="1500" y="600" width="250" height="20" rx="10" fill="rgba(255,255,255,0.2)"/>
+    <rect x="1500" y="640" width="200" height="20" rx="10" fill="rgba(255,255,255,0.15)"/>
+    <rect x="1500" y="680" width="220" height="20" rx="10" fill="rgba(255,255,255,0.1)"/>
+  </g>
+  
+  <!-- Floating tech icons -->
+  <g opacity="0.4" fill="rgba(255,255,255,0.3)">
+    <!-- Laptop icon -->
+    <path d="M800 150 L900 150 L900 200 L920 200 L920 220 L780 220 L780 200 L800 200 Z M810 160 L890 160 L890 190 L810 190 Z"/>
+    
+    <!-- Mobile icon -->
+    <path d="M1300 500 L1350 500 C1355 500 1360 505 1360 510 L1360 580 C1360 585 1355 590 1350 590 L1300 590 C1295 590 1290 585 1290 580 L1290 510 C1290 505 1295 500 1300 500 Z M1300 515 L1350 515 L1350 575 L1300 575 Z"/>
+    
+    <!-- Gear icon -->
+    <path d="M600 700 C615 700 627 712 627 727 C627 742 615 754 600 754 C585 754 573 742 573 727 C573 712 585 700 600 700 Z M600 685 L605 670 L595 670 Z M600 784 L605 799 L595 799 Z M640 727 L655 722 L655 732 Z M545 727 L530 722 L530 732 Z"/>
+  </g>
+</svg>
